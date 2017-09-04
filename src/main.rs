@@ -1,11 +1,7 @@
 use std::io;
 
 fn main() {
-<<<<<<< HEAD
     // prints the requested number of fibonacci numbers
-=======
-    // prints the requested number of fibonacci sequence elements
->>>>>>> b74a38aefa8e6d0c5dec3dcb754d5761035bc7ba
     println!("How many fibonacci numbers?");
 
     let mut i = get_num();
