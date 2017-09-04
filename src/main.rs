@@ -1,6 +1,7 @@
 use std::io;
 
 fn main() {
+    // prints the requested number of fibonacci numbers
     println!("How many fibonacci numbers?");
 
     let mut i = get_num();
@@ -22,7 +23,6 @@ fn main() {
 
 fn get_num() -> i32 {
     // gets user input and returns it as i32
-
     let mut num = String::new();
 
     io::stdin().read_line(&mut num)
